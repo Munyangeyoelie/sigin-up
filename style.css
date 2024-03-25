@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.ime {
+  height: 100%;
+  width: 50%;
+}
+.imeg {
+  width: 25vw; /* 25% of viewport width */
+  height: 25vh;
+}
+img {
+}
+.sign-up-body {
+  background: #e6e1e1;
+}
+body {
+  display: flex;
+  flex-direction: row;
+}
