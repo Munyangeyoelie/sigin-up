@@ -10,10 +10,12 @@ body {
 .ime {
   height: 100vh;
   width: 50%;
+  position: relative;
 }
 .imeg {
   width: 35vw; /* 25% of viewport width */
   height: 100vh;
+  display: block;
 }
 img {
 }
@@ -24,4 +26,66 @@ img {
   justify-content: center;
   align-items: center;
   padding: 30px;
+  position: relative;
+}
+.ime h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1; /* Bring the h1 in front of the image */
+  color: white; /* Example text color */
+  text-align: center;
+  background: tranparent: #000000;
+}
+.to-know {
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+.form-1 > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background: #fff;
+  shadow: rgba(255, 255, 255);
+  shadow-border: 1px solid;
+}
+.names,
+.emailphone,
+.password {
+  display: block;
+  margin: 5px;
+  padding: 5px;
+}
+.names,
+.emailphone,
+.password > div {
+  padding: 0;
+  border: 1px solid #e6e1e1;
+  display; block:
+  
+}
+input {
+  width: 25vh;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  /* margin-top: 6px;
+  margin-bottom: 16px; */
+  margin: 20px;
+}
+button {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
 }
