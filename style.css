@@ -61,7 +61,7 @@
   }
   .names,
   .emailphone,
-  .password > div {
+  .password  {
     padding: 0;
     border: 1px solid #e6e1e1;
     display; block:
