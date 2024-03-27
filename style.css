@@ -51,6 +51,7 @@
     background: #fff;
     shadow: rgba(255, 255, 255);
     shadow-border: 1px solid;
+    wrap-content: wrap;
   }
   .names,
   .emailphone,
@@ -94,5 +95,13 @@
   .bga h1{
     background: rgba(31, 28, 29, 0.69);
     width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
 
+
+  }
+  .dark  {
+    background: #000000;
+    color: #fff;
+    display: block;
   }
